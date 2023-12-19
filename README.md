@@ -1,6 +1,6 @@
-# divera-monitor-pi0w
+# divera-monitor-pi1b
 
-This tutorial sets up an always-on [DIVERA](https://www.divera247.com/) monitor on Raspberry Pi Zero W. Due to only having 512 MB of RAM a Raspberry Pi Zero W is not really suitable to browse the web. That's why a setup as suggested [here](https://github.com/Dustin1358/Raspberry-Pi-Divera-Monitor) will most likely not work. Therefore, it is necessary to only setup the things that are really needed and e.g. do not use a full-blown Raspberry Pi OS with a desktop environment.
+This tutorial sets up an always-on [DIVERA](https://www.divera247.com/) monitor on Raspberry Pi 1 B. Due to only having 512 MB of RAM a Raspberry Pi 1 B not really suitable to browse the web. That's why a setup as suggested [here](https://github.com/Dustin1358/Raspberry-Pi-Divera-Monitor) will most likely not work. Therefore, it is necessary to only setup the things that are really needed and e.g. do not use a full-blown Raspberry Pi OS with a desktop environment.
 
 ## Step 1. Setup Raspberry Pi
 - Use [Raspberry Pi Imager](https://www.raspberrypi.com/software/) to install 'Raspberry Pi OS Lite (Legacy)' on your SD card.
@@ -17,7 +17,7 @@ This tutorial sets up an always-on [DIVERA](https://www.divera247.com/) monitor 
   - Optional: configure WiFi settings
 - Reboot with `sudo reboot`
 
-## Step 3. Install GUI and Chromium Browser
+## Step 3. Install GUI and Midori Browser
 - Connect to your pi again via ssh with `ssh pi@<your-hostname>.local`
 - Run `./setup.sh`
 
